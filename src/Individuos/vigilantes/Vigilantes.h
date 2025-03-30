@@ -17,18 +17,23 @@ Nv => numero de indivíduos responsáveis pela vigilância
     (detecta a ameaça a partir de precisão aleatória, 0 e 1)
 
 meu:
-Cf => confiabilidade de um indivíduo e seu sinal
-    proporção entre sinal emitido e grau de erro
-Dm => status (dominancia[1] ou subordinação[0])
+
+Dominancia => status (dominancia[1] ou subordinação[0])
 */
 
 class Vigilantes : public Individuos
 {
 private:
-    int Cf();
-    float Dm();
+    float Dominancia();
 public:
-    float Ps(float precisao, int rightcall);
+    std::vector<int> Ps;
+    /*
+        retorno esperado é um inteiro
+        ele passa por um ruido para retirar a precisão
+        e retorna o int mais próximo
+        3, 4 -> ruido neg
+        1, 2 -> ruido pos
+    */
 };
 
 #endif

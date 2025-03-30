@@ -20,8 +20,11 @@ Nf => numero de indivíduos forrageadores
 class Forrageadores : public Individuos
 {
 private:
+
+protected:
     
 public:
+    std::vector<int> escutando;
     float Tr();
     int Rf(float precisao, int rightresponse);
 

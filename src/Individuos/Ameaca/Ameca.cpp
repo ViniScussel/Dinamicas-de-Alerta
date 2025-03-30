@@ -10,6 +10,6 @@
 #include "../forrageadores/Forrageadores.h"
 
 int Ameaca::Tipo_De_Ameaca(){
-    Random ameaca;
-    return ameaca.get_Int_Number_Between(1, 4);
+    Random rng;
+    return rng.get_Int_Number_Between(1, 4);
 }
