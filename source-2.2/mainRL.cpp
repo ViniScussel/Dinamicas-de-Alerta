@@ -40,7 +40,7 @@ int main() {
     srand(time(0));
     
     Environment env;
-    env.populate(1, 2, 1, 1); // 4 foragers, 2 sentinels, 3 threats, 8 food sources
+    env.populate(1, 2, 1, 1); // foragers, sentinels, threats, food sources
     env.runSimulation();
     
     return 0;
