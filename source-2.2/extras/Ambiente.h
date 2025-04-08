@@ -23,7 +23,6 @@
 
 using namespace std;
 
-
 class Environment {
     std::vector<std::unique_ptr<Forager>> foragers;
     std::vector<std::unique_ptr<Sentinel>> sentinels;
@@ -66,31 +65,63 @@ public:
             std::vector<float> detected(threats.size(), 0.0f);
             for (size_t i = 0; i < threats.size(); ++i) {
                 if (threats[i]->isAlive()) {
-                    float distance = sentinel->distanceTo(threats[i]->getPosition());
                     detected[i] = threats[i]->getIntensity();
                 }
             }
             sentinel->updateReadings(detected);
         }
     }
+
+    vector<float> forageDetectThreats() {
+        std::vector<float> detected(threats.size(), 0.0f);
+        for (auto& sentinel : sentinels) {
+            for (size_t i = 0; i < threats.size(); ++i) {
+                if (threats[i]->isAlive()) {
+                    detected[i] = threats[i]->getIntensity();
+                }
+            }
+        }
+        return detected;
+    }
     
     void propagateAlerts() {
         for (auto& forager : foragers) {
             std::vector<float> perceived(sentinels.size(), 0.0f);
             for (size_t s = 0; s < sentinels.size(); ++s) {
-                perceived[s] = sentinels[s]->chooseAlertIntensity();
+                if(sentinels[s]->is_dominant && (rand() / float(RAND_MAX)) < DOMINANT_RANGE){
+                    perceived[s] = *max_element(sentinels[s]->threat_readings.begin(),sentinels[s]->threat_readings.end());
+                    sentinels[s]->last_action = *max_element(sentinels[s]->threat_readings.begin(),sentinels[s]->threat_readings.end());
+                }
+                else {perceived[s] = sentinels[s]->chooseAlertIntensity();}
             }
             forager->updateThreats(perceived);
         }
     }
+
+    void forager_alert(const std::vector<float> detected_threats){
+        float max_threat_readings;
+        for (size_t i = 0; i < detected_threats.size()-1; ++i) {
+            if(detected_threats[i]>detected_threats[i+1]){max_threat_readings=detected_threats[i];}
+        }
+        if(max_threat_readings<detected_threats[detected_threats.size()-1]){max_threat_readings=detected_threats[detected_threats.size()-1];}
+
+        for(auto& forager: foragers){
+            int pointer_last = sentinels.size();
+            forager->threat_levels[pointer_last] = max_threat_readings;
+        }
+    }
     
-    float calculateRewardSentinel(int action, float threat_level) {
-        if (threat_level - action <= 0.2f) return 2.0f;
-        if (threat_level - action <= 0.3f) return 1.5f;
-        if (threat_level - action <= 0.5f) return 1.0f;
-        if (threat_level - action <= 0.75f) return 0.5f;
-        if (threat_level - action <= 1.0f) return -1.0f;
-        return -2.5f;
+    float calculateRewardSentinel(int action, float threat_level, vector<float> forage_results) {
+        float r_food;
+        for(int i = 0; i < forage_results.size(); i++){
+            r_food+=forage_results[i]*0.8;
+        }
+        if (threat_level - action <= 0.2f) return 2.0f + r_food;
+        if (threat_level - action <= 0.3f) return 1.5f + r_food;
+        if (threat_level - action <= 0.5f) return 1.0f + r_food;
+        if (threat_level - action <= 0.75f) return 0.5f + r_food;
+        if (threat_level - action <= 1.0f) return -1.0f + r_food;
+        return -2.5f + r_food;
     }
     
     float calculateRewardForager(int action, float threat_level, float forage_success) {
@@ -108,18 +139,24 @@ public:
         return reward;
     }
     
-    void executeActions() {
-        std::vector<float> forage_results;
+    vector<float> forage_results(){
+        std::vector<float> forage_vector;
         for (auto& forager : foragers) {
-            forage_results.push_back(forager->forage(foods));
+            forage_vector.push_back(forager->forage(foods));
         }
+        return forage_vector;
+    }
+    
+    void executeActions() {
+        vector<float> forage_ = forage_results();
         
         for (size_t i = 0; i < foragers.size(); ++i) {
             auto& forager = foragers[i];
             auto current_state = forager->getCurrentState();
             int action = forager->chooseAction();
+            if(action==2){forager_alert(forageDetectThreats());}
             
-            float reward = calculateRewardForager(action, std::get<2>(current_state), forage_results[i]);
+            float reward = calculateRewardForager(action, std::get<2>(current_state), forage_[i]);
             
             forager->executeAction(foods);
             
@@ -130,7 +167,7 @@ public:
         for (auto& sentinel : sentinels) {
             auto current_state = sentinel->getCurrentState();
             int action = sentinel->chooseAlertIntensity();
-            float reward = calculateRewardSentinel(action, std::get<2>(current_state));
+            float reward = calculateRewardSentinel(action, std::get<2>(current_state), forage_);
             auto new_state = sentinel->getCurrentState();
             sentinel->learn(current_state, action, reward, new_state);
         }

@@ -22,12 +22,16 @@ using namespace std;
 
 
 class Sentinel : public Individual {
-    std::vector<float> threat_readings;
-    bool is_dominant;
+    
     QLearningTable q_table;
-    int last_action;
+    
     
 public:
+//Isso tbm n deveria estar aqui, mas só funciona assim
+    int last_action;
+    bool is_dominant;
+    std::vector<float> threat_readings;
+
     Sentinel() : is_dominant(rand() % 2), q_table(LEARNING_RATE, DISCOUNT_FACTOR, EXPLORATION_RATE) {
         threat_readings.resize(4, 0.0f);
         last_action = 0;

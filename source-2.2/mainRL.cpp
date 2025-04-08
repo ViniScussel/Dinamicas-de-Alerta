@@ -29,7 +29,7 @@ lógica de propagação entre alertas de outros forrageadores
 
 lógica de correção de dominância
 
-mudar a lógica de recepção dos forrageadores
+mudar a lógica de recepção dos forrageadores [feito]
 
 achar um jeito de trocarem de classe
 
@@ -37,10 +37,20 @@ OBS: refazer o código de forma estática para estados extremos
 */
 
 int main() {
-    srand(time(0));
     
+    int f, s, t, c;
+    cout << "qtd forrageadores" << endl;
+    cin >> f;
+    cout << "qtd sentinelas" << endl;
+    cin >> s;
+    cout << "qtd ameaças" << endl;
+    cin >> t;
+    cout << "qtd comida" << endl;
+    cin >> c;
+
+    srand(time(0));
     Environment env;
-    env.populate(1, 2, 1, 1); // foragers, sentinels, threats, food sources
+    env.populate(f, s, t, c); // 4 foragers, 2 sentinels, 3 threats, 8 food sources
     env.runSimulation();
     
     return 0;

@@ -13,20 +13,28 @@
 #include <tuple>
 #include <string>
 
-#include "Individuos.h"
 #include "QLearning.h"
-#include "constantes.h"
+#include "Individuos.h"
+#include "Forrageadores.h"
+#include "Sentinelas.h"
+#include "Ameaca.h"
 #include "Comida.h"
+#include "constantes.h"
+
 
 using namespace std;
 
 class Forager : public Individual {
-    std::vector<float> threat_levels;
     QLearningTable q_table;
     int last_action;
     float food_collected;
     
 public:
+    //isso não deveria estar aqui, mas só funciona se ele estiver aqui
+    //pq não é possível criar dependẽncias circulares aqui sla pq
+    std::vector<float> threat_levels;
+
+
     Forager() : q_table(LEARNING_RATE, DISCOUNT_FACTOR, EXPLORATION_RATE), food_collected(0.0f) {
         threat_levels.resize(4, 0.0f);
         last_action = 0;
@@ -70,12 +78,25 @@ public:
         return total_collected;
     }
     
+
+    void forager_alert(const std::vector<float> detected_threats){
+        float max_threat_readings;
+        for (size_t i = 0; i < detected_threats.size()-1; ++i) {
+            if(detected_threats[i]>detected_threats[i+1]){max_threat_readings=detected_threats[i];}
+        }
+        if(max_threat_readings<detected_threats[detected_threats.size()-1]){max_threat_readings=detected_threats[detected_threats.size()-1];}
+
+        threat_levels.push_back(max_threat_readings);
+    }
+
     void executeAction(std::vector<std::unique_ptr<Food>>& foods) {
         switch (last_action) {
             case 1: // Fugir
                 moveRandomly();
                 break;
             case 2: // Alertar
+            /*Perceber a ameaça
+            repassar a de maior valor corretamente*/
                 break;
             case 3: // Buscar abrigo
                 moveRandomly();
