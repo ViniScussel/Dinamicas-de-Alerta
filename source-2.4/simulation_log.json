@@ -1,0 +1,5802 @@
+[
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.46803730726242065,
+                0.8085037469863892
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 2,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 1,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                2.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 1
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.48416367173194885,
+                0.8390251398086548
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 2
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.4920070767402649,
+                0.8164248466491699
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 3
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.45418640971183777,
+                0.8627377152442932
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 2,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                2.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 4
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.40713930130004883,
+                0.8219409584999084
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 5
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.43306639790534973,
+                0.8128657341003418
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 6
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.47001391649246216,
+                0.8353773355484009
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 7
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.4255153238773346,
+                0.8529903292655945
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 2,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                2.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 8
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3989843428134918,
+                0.8062551617622375
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 9
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.35193294286727905,
+                0.8232833743095398
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 10
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.37768852710723877,
+                0.8124141097068787
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 2,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                2.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 11
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3670085668563843,
+                0.7736661434173584
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 12
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.33418920636177063,
+                0.7469122409820557
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 13
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.2992873787879944,
+                0.7181814312934875
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 14
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.33307182788848877,
+                0.7028179168701172
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 2,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                2.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 15
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3605741560459137,
+                0.725197970867157
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 16
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.35713475942611694,
+                0.7026420831680298
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                -0.46856606006622314,
+                -0.5406650304794312
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 17
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.30826085805892944,
+                0.7277176976203918
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 3,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 18
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3431432545185089,
+                0.7070108652114868
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 2,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                2.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 19
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3238295614719391,
+                0.7549852728843689
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 2,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                2.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 20
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.28224775195121765,
+                0.7877439260482788
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 21
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.2974306046962738,
+                0.7444463968276978
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 2,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                2.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 22
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.27573850750923157,
+                0.7250605225563049
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 23
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.22857670485973358,
+                0.7723520398139954
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 24
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.23876424133777618,
+                0.8175659775733948
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 25
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.19767428934574127,
+                0.837729275226593
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 2,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                2.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 26
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.2469070553779602,
+                0.8410956859588623
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 27
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.29110196232795715,
+                0.8741335868835449
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 28
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.2538958191871643,
+                0.8738182187080383
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 29
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.29595673084259033,
+                0.9159796833992004
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 2,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                2.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 30
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3026140332221985,
+                0.9491224884986877
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 31
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.27810904383659363,
+                0.9487505555152893
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 32
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.28461962938308716,
+                0.9654663801193237
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 33
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.26147109270095825,
+                0.9372332096099854
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.04895873740315437,
+                0.0
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 34
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.23183077573776245,
+                0.917332649230957
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 5,
+            "food_collected": 0.0,
+            "position": [
+                0.07277735322713852,
+                0.043962184339761734
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 35
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.27101558446884155,
+                0.8761041760444641
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.07277735322713852,
+                0.043962184339761734
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 36
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.30868926644325256,
+                0.8657206296920776
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.07277735322713852,
+                0.043962184339761734
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 37
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.30203524231910706,
+                0.8198638558387756
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.07277735322713852,
+                0.043962184339761734
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 38
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3072911500930786,
+                0.8070588707923889
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.07277735322713852,
+                0.043962184339761734
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 39
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3568668067455292,
+                0.8368256688117981
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.07277735322713852,
+                0.043962184339761734
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 40
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3345903754234314,
+                0.7915014028549194
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.07277735322713852,
+                0.043962184339761734
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 41
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3403116464614868,
+                0.7524594664573669
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.07277735322713852,
+                0.043962184339761734
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 42
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.2943921685218811,
+                0.8002439737319946
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.02470508962869644,
+                0.08728794008493423
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 43
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.2929738163948059,
+                0.7502936124801636
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 2,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.02470508962869644,
+                0.08728794008493423
+            ],
+            "threats_detected": [
+                2.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 44
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3427529036998749,
+                0.7460929155349731
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.02470508962869644,
+                0.08728794008493423
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 45
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3366285264492035,
+                0.7237220406532288
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.02470508962869644,
+                0.08728794008493423
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 46
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.2902461588382721,
+                0.7317115068435669
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 1,
+            "food_collected": 0.0,
+            "position": [
+                -0.043754249811172485,
+                -0.1335170418024063
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 47
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.30539634823799133,
+                0.7552215456962585
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 1,
+            "food_collected": 0.0,
+            "position": [
+                -0.0,
+                -0.0
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 48
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.2787936329841614,
+                0.7890127301216125
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 2,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                -0.0,
+                -0.0
+            ],
+            "threats_detected": [
+                2.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 49
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3207848370075226,
+                0.7590569853782654
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.015843521803617477,
+                0.0
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 50
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3568769097328186,
+                0.7283620238304138
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 3,
+            "food_collected": 0.0,
+            "position": [
+                0.029686078429222107,
+                0.0
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 51
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.36657869815826416,
+                0.7745524048805237
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 1,
+            "food_collected": 0.0,
+            "position": [
+                -0.04962889105081558,
+                -0.04585067555308342
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 52
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.37150219082832336,
+                0.8151893615722656
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                -0.04962889105081558,
+                -0.04585067555308342
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 53
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3797712028026581,
+                0.7776781320571899
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 2,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                -0.04962889105081558,
+                -0.04585067555308342
+            ],
+            "threats_detected": [
+                2.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 54
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3739279806613922,
+                0.8085165023803711
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                -0.04962889105081558,
+                -0.04585067555308342
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 55
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3609313368797302,
+                0.7942183613777161
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 56
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3776145279407501,
+                0.7725719213485718
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 3,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                3.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 57
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3804350197315216,
+                0.7727990746498108
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 58
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.36043599247932434,
+                0.726730227470398
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 2,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                2.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 59
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3800886571407318,
+                0.7284301519393921
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 60
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3799531161785126,
+                0.7576592564582825
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 61
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.36682426929473877,
+                0.7975640892982483
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 62
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3356582522392273,
+                0.796844482421875
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 63
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3166273534297943,
+                0.7813041806221008
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 64
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3414068818092346,
+                0.8022332787513733
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 65
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3354833126068115,
+                0.8224542140960693
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 5,
+            "food_collected": 0.0,
+            "position": [
+                0.02550577186048031,
+                0.04300529882311821
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 66
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3836207687854767,
+                0.8260383009910583
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.02550577186048031,
+                0.04300529882311821
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 67
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.39234694838523865,
+                0.8268371224403381
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 3,
+            "food_collected": 0.0,
+            "position": [
+                0.05683313310146332,
+                0.05952358990907669
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 68
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3970237374305725,
+                0.8726273775100708
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 5,
+            "food_collected": 0.0,
+            "position": [
+                0.08156146854162216,
+                0.10298057645559311
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 69
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.39902904629707336,
+                0.8869036436080933
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 1,
+            "food_collected": 0.0,
+            "position": [
+                -0.10032950341701508,
+                -0.14932452142238617
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 70
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.4382135272026062,
+                0.9205464124679565
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                -0.10032950341701508,
+                -0.14932452142238617
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 71
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.43061649799346924,
+                0.9446696639060974
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                -0.10032950341701508,
+                -0.14932452142238617
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 72
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.45514562726020813,
+                0.9402502775192261
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                -0.10032950341701508,
+                -0.14932452142238617
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 73
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.5005546808242798,
+                0.9179084897041321
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                -0.10032950341701508,
+                -0.14932452142238617
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 74
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.45601004362106323,
+                0.8697983026504517
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                -0.10032950341701508,
+                -0.14932452142238617
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 75
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.49547508358955383,
+                0.8659533858299255
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                -0.10032950341701508,
+                -0.14932452142238617
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 76
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.5341665148735046,
+                0.874476969242096
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                -0.10032950341701508,
+                -0.14932452142238617
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 77
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.5405888557434082,
+                0.9076434969902039
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                -0.10032950341701508,
+                -0.14932452142238617
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 78
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.5626598596572876,
+                0.936476469039917
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                -0.10032950341701508,
+                -0.14932452142238617
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 79
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.5253421664237976,
+                0.9478429555892944
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.0,
+                0.0
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 80
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.5296003222465515,
+                0.9147185683250427
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 5,
+            "food_collected": 0.0,
+            "position": [
+                0.02550577186048031,
+                0.04300529882311821
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 81
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.5190443396568298,
+                0.8895614147186279
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 3,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 82
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.4970480501651764,
+                0.9191370606422424
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 1,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                1.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 83
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.512683629989624,
+                0.9288603663444519
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 84
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.5595061182975769,
+                0.8862703442573547
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 85
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.5685564279556274,
+                0.8930312395095825
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 86
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.5453991889953613,
+                0.8881765007972717
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 87
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.5162717700004578,
+                0.9333673119544983
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 88
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.5111885070800781,
+                0.9385280609130859
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 89
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.4723801910877228,
+                0.9085851907730103
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 90
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.44447755813598633,
+                0.9424847960472107
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 91
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.4069443643093109,
+                0.9416705369949341
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 92
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.3777945637702942,
+                0.9905795454978943
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 93
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.4209427237510681,
+                1.0
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 94
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.4471531808376312,
+                1.0
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 95
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.4844244420528412,
+                0.9861215353012085
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 96
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.5304446220397949,
+                0.9760955572128296
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 97
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.5581192374229431,
+                1.0
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 98
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.5170811414718628,
+                1.0
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 4,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 99
+},
+{
+    "agents": [
+        {
+            "alive": true,
+            "intensity": 4,
+            "position": [
+                0.4948873519897461,
+                0.9604223370552063
+            ],
+            "type": "threat"
+        },
+        {
+            "available": true,
+            "position": [
+                0.5661648511886597,
+                0.9546109437942505
+            ],
+            "quantity": 0.9914429783821106,
+            "type": "food"
+        },
+        {
+            "action": 4,
+            "position": [
+                0.360319584608078,
+                0.14799585938453674
+            ],
+            "threats_detected": [
+                4.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "type": "sentinel"
+        },
+        {
+            "action": 2,
+            "food_collected": 0.0,
+            "position": [
+                0.048718057572841644,
+                0.07427047193050385
+            ],
+            "threats_detected": [
+                4.0,
+                4.0,
+                0.0,
+                0.0
+            ],
+            "type": "forager"
+        }
+    ],
+    "counts": {
+        "food_sources": 1,
+        "foragers": 1,
+        "sentinels": 1,
+        "threats": 1
+    },
+    "step": 100
+}
+]
