@@ -11,16 +11,16 @@ const float FOOD_REWARD = 1.5f;
 int SIMULATION_STEPS = 100;
 const float ALERT_THRESHOLD = 1.5f;
 const float FORAGE_RADIUS = 0.1f;
-const float MOVE_DISTANCE = 0.05f;
+const float MOVE_DISTANCE = 0.01f;
 const int ACTIONS_ARE_DAYS = 50;
 const float DOMINANT_RANGE = 0.15f;
 const int SENTINEL_NUMBER = 1;
 const int FORRAGER_NUMBER = 1;
 const int THREAT_NUMBER = 2;
+const int FOOD_NUMBER = 3;
 
 //ainda não implementado
-const int FOOD_NUMBER = 3;
-const float MIN_ATTACK_DISTANCE = 0.10f;
-const float CERTAIN_ATTACK_DISTANCE = 0.01f;
+const float MIN_ATTACK_DISTANCE = 0.01f;
+const float CERTAIN_ATTACK_DISTANCE = 0.001f;
 
 #endif

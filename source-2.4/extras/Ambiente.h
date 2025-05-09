@@ -53,6 +53,21 @@ class Environment {
 
 public:
 
+    void giveID(){
+        int mark = 1;
+        for (int i = 0; i < foragers.size(); ++i){
+            foragers[i]->id = mark;
+            mark++;
+        } for (int i = 1; i < sentinels.size()+1; ++i){
+            sentinels[i-1]->id = mark;
+            mark++;
+        } for (int i = 1; i < threats.size()+1; ++i){
+            threats[i-1]->id = mark;
+            mark++;
+        }
+            
+    }
+
     void populate(int num_foragers, int num_sentinels, int num_threats, int num_foods) {
         for (int i = 0; i < num_foragers; ++i)
             foragers.push_back(std::make_unique<Forager>());
@@ -62,19 +77,8 @@ public:
             threats.push_back(std::make_unique<Threat>());
         for (int i = 0; i < num_foods; ++i)
             foods.push_back(std::make_unique<Food>());
-    }
-
-    void giveID(){
-        int mark = 1;
-        for (int i = 0; i < foragers.size(); ++i){
-            foragers[i]->id = mark;
-            mark++;
-        } for (int i = 1; i < sentinels.size()+1; ++i){
-            sentinels[i-1]->id = mark;
-        } for (int i = 1; i < threats.size()+1; ++i){
-            threats[i-1]->id = mark;
-        }
-            
+        
+        giveID();
     }
     
     void detectThreats() {
@@ -175,7 +179,7 @@ public:
                 float distbet = distanceBetween(threat->getPosition(), forager->getPosition());
                 if(distbet<=CERTAIN_ATTACK_DISTANCE){
                     forager->die();
-                } else if(distbet<=MIN_ATTACK_DISTANCE){
+                } else if(2*distbet/threat->intensity<=MIN_ATTACK_DISTANCE){
                     if(rdnum.getRand()<function(distbet)){forager->die();}
                 }
             }

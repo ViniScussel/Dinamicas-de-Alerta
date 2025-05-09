@@ -23,6 +23,8 @@ using namespace std;
 
 /*
 Adicionar:
+ataque depende do nível de ameaça
+
 tirar forrageadores do escopo quando morrem [feito]
 adicionar vetores de forrageadores mortos e seus IDs
 

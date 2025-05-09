@@ -35,7 +35,7 @@ public:
     std::vector<float> threat_readings;
 
     Sentinel() : is_dominant(rand() % 2), q_table(LEARNING_RATE, DISCOUNT_FACTOR, EXPLORATION_RATE) {
-        threat_readings.resize(4, 0.0f);
+        threat_readings.resize(THREAT_NUMBER, 0.0f);
         last_action = 0;
     }
     
@@ -86,6 +86,7 @@ public:
     json toJson() const {
         return json{
             {"type", "sentinel"},
+            {"ID", id},
             {"position", {x, y}},
             {"action", last_action},
             {"threats_detected", threat_readings}

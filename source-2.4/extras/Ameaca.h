@@ -45,6 +45,7 @@ public:
     json toJson() const {
         return json{
             {"type", "threat"},
+            {"ID", id},
             {"position", {x, y}},
             {"intensity", intensity},
             {"alive", isAlive()}
