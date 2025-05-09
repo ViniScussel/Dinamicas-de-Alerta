@@ -23,6 +23,7 @@ protected:
     float x, y;
     bool alive;
 public:
+    int id;
     Individual() : x(rand() / float(RAND_MAX)), y(rand() / float(RAND_MAX)), alive(true) {}
     
     std::vector<float> getPosition() const { return {x, y}; }

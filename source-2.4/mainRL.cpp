@@ -16,13 +16,17 @@
 #include "extras/Individuos.h"
 #include "extras/QLearning.h"
 #include "extras/Sentinelas.h"
+#include "extras/constantes.h"
 
 using json = nlohmann::json;
 using namespace std;
 
 /*
 Adicionar:
-percepção de ameaças dinâmicas
+tirar forrageadores do escopo quando morrem [feito]
+adicionar vetores de forrageadores mortos e seus IDs
+
+percepção de ameaças dinâmicas [mais ou menos, ainda tenho que arrumar]
 
 Cada vez que um forrageador morre, todos os forrageadores são penalizados com -5
 e os sentinelas com -15
@@ -43,20 +47,9 @@ OBS: refazer o código de forma estática para estados extremos
 */
 
 int main() {
-
-    int f, s, t, c;
-    cout << "qtd forrageadores" << endl;
-    cin >> f;
-    cout << "qtd sentinelas" << endl;
-    cin >> s;
-    cout << "qtd ameaças" << endl;
-    cin >> t;
-    cout << "qtd comida" << endl;
-    cin >> c;
-
     srand(time(0));
     Environment env;
-    env.populate(f, s, t, c); // 4 foragers, 2 sentinels, 3 threats, 8 food sources
+    env.populate(FORRAGER_NUMBER, SENTINEL_NUMBER, THREAT_NUMBER, FOOD_NUMBER);
     env.runSimulation();
     
     return 0;

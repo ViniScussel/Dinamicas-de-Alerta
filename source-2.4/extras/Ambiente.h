@@ -13,6 +13,7 @@
 #include <tuple>
 #include <string>
 
+#include "../random_numbers/Random.h"
 #include "json.hpp"
 #include "QLearning.h"
 #include "Individuos.h"
@@ -26,6 +27,7 @@
 using namespace std;
 
 class Environment {
+    Random rdnum;
     Forager forager;
     std::vector<std::unique_ptr<Forager>> foragers;
     std::vector<std::unique_ptr<Sentinel>> sentinels;
@@ -61,6 +63,19 @@ public:
         for (int i = 0; i < num_foods; ++i)
             foods.push_back(std::make_unique<Food>());
     }
+
+    void giveID(){
+        int mark = 1;
+        for (int i = 0; i < foragers.size(); ++i){
+            foragers[i]->id = mark;
+            mark++;
+        } for (int i = 1; i < sentinels.size()+1; ++i){
+            sentinels[i-1]->id = mark;
+        } for (int i = 1; i < threats.size()+1; ++i){
+            threats[i-1]->id = mark;
+        }
+            
+    }
     
     void detectThreats() {
         for (auto& sentinel : sentinels) {
@@ -88,15 +103,18 @@ public:
     
     void propagateAlerts() {
         for (auto& forager : foragers) {
-            std::vector<float> perceived(sentinels.size(), 0.0f);
-            for (size_t s = 0; s < sentinels.size(); ++s) {
-                if(sentinels[s]->is_dominant && (rand() / float(RAND_MAX)) < DOMINANT_RANGE){
-                    perceived[s] = *max_element(sentinels[s]->threat_readings.begin(),sentinels[s]->threat_readings.end());
-                    sentinels[s]->last_action = *max_element(sentinels[s]->threat_readings.begin(),sentinels[s]->threat_readings.end());
+            if(forager->isAlive()){
+                std::vector<float> perceived(sentinels.size(), 0.0f);
+                for (size_t s = 0; s < sentinels.size(); ++s) {
+                    if(sentinels[s]->is_dominant && (rand() / float(RAND_MAX)) < DOMINANT_RANGE){
+                        perceived[s] = *max_element(sentinels[s]->threat_readings.begin(),sentinels[s]->threat_readings.end());
+                        sentinels[s]->last_action = *max_element(sentinels[s]->threat_readings.begin(),sentinels[s]->threat_readings.end());
+                    }
+                    else {perceived[s] = sentinels[s]->chooseAlertIntensity();}
                 }
-                else {perceived[s] = sentinels[s]->chooseAlertIntensity();}
+                forager->updateThreats(perceived);
             }
-            forager->updateThreats(perceived);
+            
         }
     }
 
@@ -109,8 +127,11 @@ public:
         if(max_threat_readings<detected_threats[detected_threats.size()-1]){max_threat_readings=detected_threats[detected_threats.size()-1];}
 
         for(auto& forager: foragers){
-            int pointer_last = sentinels.size();
-            forager->threat_levels[pointer_last] = max_threat_readings;
+            if(forager->isAlive()){
+                int pointer_last = sentinels.size();
+                forager->threat_levels[pointer_last] = max_threat_readings;
+            }
+            
         }
     }
 
@@ -140,6 +161,24 @@ public:
             return vectors[0];
         } else if(threats.size()==1) {
             return threats[0]->getPosition();
+        }
+    }
+
+    float function(float x){
+        float value = -2 * log(0.0068*x)-1;
+        return value;
+    }
+
+    void threatAttack(){
+        for(auto& threat : threats){
+            for(auto& forager : foragers){
+                float distbet = distanceBetween(threat->getPosition(), forager->getPosition());
+                if(distbet<=CERTAIN_ATTACK_DISTANCE){
+                    forager->die();
+                } else if(distbet<=MIN_ATTACK_DISTANCE){
+                    if(rdnum.getRand()<function(distbet)){forager->die();}
+                }
+            }
         }
     }
     
@@ -184,17 +223,20 @@ public:
         
         for (size_t i = 0; i < foragers.size(); ++i) {
             auto& forager = foragers[i];
-            auto current_state = forager->getCurrentState();
-            int action = forager->chooseAction();
-            if(action==2){forager_alert(forageDetectThreats());}
-            if(action==1){forager->escape(positionOfNearestThreat(forager->getPosition()));}
+            if(forager->isAlive()){
+                auto current_state = forager->getCurrentState();
+                int action = forager->chooseAction();
+                if(action==2){forager_alert(forageDetectThreats());}
+                if(action==1){forager->escape(positionOfNearestThreat(forager->getPosition()));}
+                
+                float reward = calculateRewardForager(action, std::get<2>(current_state), forage_[i]);
+                
+                forager->executeAction(foods);
+                
+                auto new_state = forager->getCurrentState();
+                forager->learn(current_state, action, reward, new_state);
+            }
             
-            float reward = calculateRewardForager(action, std::get<2>(current_state), forage_[i]);
-            
-            forager->executeAction(foods);
-            
-            auto new_state = forager->getCurrentState();
-            forager->learn(current_state, action, reward, new_state);
         }
         
         for (auto& sentinel : sentinels) {
@@ -232,6 +274,7 @@ public:
     
     void simulationStep(int step) {
         std::cout << "\n=== STEP " << step << " ===" << std::endl;
+        threatAttack();
         moveThreats();
         detectThreats();
         executeActions();
@@ -247,6 +290,17 @@ public:
             }
         }
     }
+
+    vector<int> idOfDeadForagers(){
+        vector<int> ids;
+        ids.resize(0, 0);
+        for(auto& forager : foragers){
+            if(!forager->isAlive()){
+                ids.push_back(forager->id);
+            }
+        }
+        return ids;
+    }
     
 
     json generateSimulationJson(int step) {
@@ -256,7 +310,8 @@ public:
         // Metadados da simulação
         simulationJson["step"] = step;
         simulationJson["counts"] = {
-        {"foragers", foragers.size()},
+        {"dead_foragers", idOfDeadForagers().size()},
+        {"foragers", foragers.size()-idOfDeadForagers().size()},
         {"sentinels", sentinels.size()},
         {"threats", threats.size()},
         {"food_sources", foods.size()}
@@ -286,8 +341,13 @@ public:
 
         // Adiciona forrageadores
         for (const auto& forager : foragers) {
-        agentsJson.push_back(forager->toJson());
+        if(forager->isAlive()){
+            agentsJson.push_back(forager->toJson());}
         }
+        
+        json{
+            {"number_of_dead_foragers: ", idOfDeadForagers().size()}
+        };
 
         simulationJson["agents"] = agentsJson;
 

@@ -40,7 +40,7 @@ public:
 
 
     Forager() : q_table(LEARNING_RATE, DISCOUNT_FACTOR, EXPLORATION_RATE), food_collected(0.0f) {
-        threat_levels.resize(4, 0.0f);
+        threat_levels.resize(SENTINEL_NUMBER+1, 0.0f);
         last_action = 0;
     }
     
@@ -166,7 +166,9 @@ public:
     //json code
     json toJson() const {
         return json{
+            {"alive", isAlive()},
             {"type", "forager"},
+            {"ID", id},
             {"position", {x, y}},
             {"action", last_action},
             {"threats_detected", threat_levels},
