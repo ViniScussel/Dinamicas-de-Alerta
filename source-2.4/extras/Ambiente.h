@@ -187,6 +187,7 @@ public:
     }
     
     float calculateRewardSentinel(int action, float threat_level, vector<float> forage_results) {
+        float deadForagers;
         float r_food;
         for(int i = 0; i < forage_results.size(); i++){
             r_food+=forage_results[i]*0.8;
@@ -196,10 +197,16 @@ public:
         if (threat_level - action <= 0.5f) return 1.0f + r_food;
         if (threat_level - action <= 0.75f) return 0.5f + r_food;
         if (threat_level - action <= 1.0f) return -1.0f + r_food;
-        return -2.5f + r_food;
+
+        for (auto& forager : foragers){
+            deadForagers -= 15.0f;
+        }
+
+        return -2.5f + r_food + deadForagers;
     }
     
     float calculateRewardForager(int action, float threat_level, float forage_success) {
+        float deadForagers;
         float reward = 0.0f;
         
         switch (action) {
@@ -210,8 +217,12 @@ public:
             case 5: reward = (threat_level < 1.0f) ? forage_success * FOOD_REWARD : 
                    (threat_level < 2.0f) ? forage_success * FOOD_REWARD * 0.5f : -2.0f; break;
         }
+
+        for (auto& forager : foragers){
+            deadForagers -= 5;
+        }
         
-        return reward;
+        return reward+deadForagers;
     }
     
     vector<float> forage_results(){

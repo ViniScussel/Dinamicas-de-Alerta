@@ -23,10 +23,14 @@ using namespace std;
 
 /*
 Adicionar:
-ataque depende do nível de ameaça
+fazer com que a tabela Q dependa da diferença de pos entre indv e ameaça e não de x e y de indv
+
+calcular tempo de resposta dos forrageadores
+
+ataque depende do nível de ameaça [feito]
 
 tirar forrageadores do escopo quando morrem [feito]
-adicionar vetores de forrageadores mortos e seus IDs
+adicionar vetores de forrageadores mortos e seus IDs [mais ou menos]
 
 percepção de ameaças dinâmicas [mais ou menos, ainda tenho que arrumar]
 
@@ -34,7 +38,7 @@ Cada vez que um forrageador morre, todos os forrageadores são penalizados com -
 e os sentinelas com -15
 o que implica em adicionar sistema de "dias"
 
-lógica de propagação entre alertas de outros forrageadores [feito]
+lógica de propagação entre alertas de outros forrageadores
 -> adicionar ruido de propaação menor
 
 lógica de correção de dominância [feito]
